@@ -4,9 +4,9 @@ session_start();
 
 //database details
 define('DBHOST','localhost');
-define('DBUSER','root');
-define('DBPASS','');
-define('DBNAME','technosmarterblog');
+define('DBUSER','1');
+define('DBPASS','0,6Rbsehdf.9I');
+define('DBNAME','admin');
 
 $db = new PDO("mysql:host=".DBHOST.";dbname=".DBNAME, DBUSER, DBPASS);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
